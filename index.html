@@ -404,10 +404,15 @@
               <button class="play-btn-large" id="big-play-btn" aria-label="Play music"><i class="bi bi-play-fill" id="play-icon"></i></button>
               <div class="custom-audio">
                 <!-- ★ BACKGROUND MUSIC — raw GitHub URL ★ -->
-                <audio id="birthday-audio" loop preload="auto">
-                  <!-- <source src="https://raw.githubusercontent.com/kovendan16/hbd-shalani/main/Hbd%20shalani%20(1).mp3" type="audio/mpeg"> -->
-                     <source src="https://github.com/kovendan16/chitra/blob/main/b87065ae-4732-4e5f-af7c-14f74db806d3.mp3" type="audio/mpeg">
-                </audio>
+             <!--   <audio id="birthday-audio" loop preload="auto">
+                   <source src="https://raw.githubusercontent.com/kovendan16/hbd-shalani/main/Hbd%20shalani%20(1).mp3" type="audio/mpeg"> -->
+               <audio id="birthday-audio" loop preload="auto">
+  <source
+    src="https://github.com/kovendan16/chitra/raw/refs/heads/main/b87065ae-4732-4e5f-af7c-14f74db806d3.mp3"
+    type="audio/mpeg">
+</audio>  
+                  
+       
               </div>
               <p class="audio-note">🎵 Background music is auto-playing — use the volume button to mute</p>
             </div>
@@ -417,7 +422,7 @@
     </section>
 
     <!-- ★ FOOD GALLERY (replaces "Process of Chat Application") ★ -->
-    <section class="birthday-section" id="gallery-section">
+  <!--  <section class="birthday-section" id="gallery-section">
       <div class="container">
         <h2 class="section-heading reveal"><span>A Birthday</span> Feast</h2>
         <p class="food-subtitle reveal">Warning: viewing may cause serious hunger 😋</p>
@@ -474,7 +479,7 @@
 
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Custom Lightbox (Popup) HTML -->
     <div id="custom-lightbox" class="custom-lightbox">
@@ -498,7 +503,7 @@
     /* ============================================
        ★★★ CONFIG — CHANGE EVERYTHING HERE! ★★★
        ============================================ */
-    var NAME = 'Shalani';   /* ★ Change the name here — it updates the whole page ★ */
+    var NAME = 'Chitra';   /* ★ Change the name here — it updates the whole page ★ */
 
     /* Apply the name everywhere */
     (function applyName(){
@@ -775,4 +780,3 @@
   </script>
 </body>
 </html>
-
